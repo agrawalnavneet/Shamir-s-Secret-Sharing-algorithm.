@@ -3,13 +3,10 @@ package com.shamir.sss.model;
 import java.math.BigInteger;
 import java.util.Objects;
 
-/**
- * Represents a single share in Shamir's Secret Sharing scheme.
- * A share is essentially a point (x, y) on the polynomial.
- */
+
 public class Share {
-    private final BigInteger x; // The x-coordinate (ID or index) of the share
-    private final BigInteger y; // The y-coordinate (value) of the share
+    private final BigInteger x; 
+    private final BigInteger y; 
 
     public Share(BigInteger x, BigInteger y) {
         // Basic validation: x-coordinate should not be zero for typical SSS (secret is P(0))
