@@ -9,7 +9,7 @@ public class Share {
     private final BigInteger y; 
 
     public Share(BigInteger x, BigInteger y) {
-        // Basic validation: x-coordinate should not be zero for typical SSS (secret is P(0))
+
         if (x.equals(BigInteger.ZERO)) {
             throw new IllegalArgumentException("Share x-coordinate cannot be zero, as the secret is typically P(0).");
         }
