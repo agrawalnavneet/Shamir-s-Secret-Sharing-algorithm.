@@ -32,9 +32,9 @@ shamir-secret-sharing/
   1. The secret (constant term of the polynomial)
   2. Either `No wrong shares` or `Wrong shares: x1, x2, ...` (the x values of wrong shares)
 
-EX:  2
-No wrong shares
-79836264049850
+EX:  2 <br/>
+No wrong shares<br/>
+79836264049850<br/>
 Wrong shares: 8
 
 ## Notes
