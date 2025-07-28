@@ -32,6 +32,11 @@ shamir-secret-sharing/
   1. The secret (constant term of the polynomial)
   2. Either `No wrong shares` or `Wrong shares: x1, x2, ...` (the x values of wrong shares)
 
+EX:  2
+No wrong shares
+79836264049850
+Wrong shares: 8
+
 ## Notes
 - Place your `testcase1.json` and `testcase2.json` files in the `shamir-secret-sharing` directory (same as `pom.xml`).
 - The code is now free of comments for clean submission.
